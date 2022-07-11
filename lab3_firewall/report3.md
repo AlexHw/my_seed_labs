@@ -1,4 +1,4 @@
-# Firewall Lab - Alex Baron
+# Firewall Lab
 
 ## Task B: Implement a Simple Firewall Using *Netfilter*
 
