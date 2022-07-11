@@ -1,4 +1,4 @@
-# Spectre Attack Lab - Alex Baron
+# Spectre Attack Lab
 
 ## Task 1: Reading from Cache
 
