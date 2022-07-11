@@ -1,4 +1,4 @@
-# Return to libc | Alex Baron
+# Return to libc
 
 ## Task 1: Finding out the Addresses of libc Functions
 
