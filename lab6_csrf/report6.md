@@ -1,4 +1,4 @@
-# CSRF Attack Lab on Elgg WebApp - Alex Baron
+# CSRF Attack Lab on Elgg WebApp
 
 ## Overview
 
