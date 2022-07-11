@@ -1,4 +1,4 @@
-# Format-string Attack Lab | Alex Baron
+# Format-string Attack Lab
 
 Some programs allow users to provide the entire or part of the contents in a format string. If such contents are not sanitized, malicious users can use this opportunity to get the program to run arbitrary code. A problem like this is called format string vulnerability.
 
