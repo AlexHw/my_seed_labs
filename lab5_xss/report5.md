@@ -1,4 +1,4 @@
-# XSS Attack Lab on Elgg WebApp - Alex Baron
+# XSS Attack Lab on Elgg WebApp
 
 ## Task 1: Posting a Malicious Message to Display an Alert Window
 
