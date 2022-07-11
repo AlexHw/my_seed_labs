@@ -81,6 +81,17 @@ Displays the memory contents at a given address using the specified format:
 
 - aslr
 
+## pattern
+
+if file_name is omittet it creates a pattern directly in stdout
+> pattern create <n> [file_name]
+
+after using the pattern as input this command will print the offsets
+> pattern search
+
+if looking for a specific offset, just copy the part of the pattern, e.g., AAfAAh
+> pattern offset AAfAAh
+
 ## hooks
 
 Define hooks to print at breakpoints. These hooks run the commands defined in them at every breakpoint:
