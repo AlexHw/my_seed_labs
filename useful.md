@@ -112,10 +112,6 @@ Examples:
 > iptables -A FORWARD -i eth0 -o eth1 -p tcp --sport 5000 -j ACCEPT
 
 
-### Connection Tracking
-
-> conntrack -L
-
 * * *
 
 ## Shellcode Utilities / Assembly
@@ -138,12 +134,6 @@ Print out the content of the binary file:
 ## pwn / protostar
 
 ### Utilities
-
-Accessing protostar VM (port forwarding set on virtualbox):
-[link](https://www.xmodulo.com/access-nat-guest-from-host-virtualbox.html)
-
-> ssh-keygen -f "/home/alex/.ssh/known_hosts" -R "[127.0.0.1]:2221"
-> ssh -p 2221 user@127.0.0.1 
 
 Run python code as an argument of a program:
 >  ./heap0 `python -c 'print "A"*72+"\x64\x84\x04\x08"'`
@@ -206,11 +196,6 @@ We use %n to modify the target variable.
 %n = Writes the number of characters in the address given as argument.
 (or number of characters that have been printed so far)
 
-
-### Useful Info
-
-- **fs** register usually used for canaries
-- And they all start with 00 value (end of string)
 
 * * *
 
