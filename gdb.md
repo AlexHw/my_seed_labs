@@ -75,6 +75,12 @@ Displays the memory contents at a given address using the specified format:
 
 - canary
 
+- vmmap
+
+- checksec
+
+- aslr
+
 ## hooks
 
 Define hooks to print at breakpoints. These hooks run the commands defined in them at every breakpoint:
