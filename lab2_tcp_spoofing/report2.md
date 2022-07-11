@@ -1,4 +1,4 @@
-# TCP Attacks Lab - Alex Baron
+# TCP Attacks Lab
 
 ## Task 1.1: Launching the Attack Using Python
 
